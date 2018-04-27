@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Cicekci</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <script src="JavaScript.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>KARDEŞLER ÇİÇEKÇİLİK</h1>
+    </header>
+
+    <ul class="menu">
+        <li><a href="\0">Anasayfa</a></li>
+        <li>
+            <a href="\0">Ürünler</a>
+            <ul class="subMenu" id="myBtnContainer">
+                <li><button class="btn active" onclick="filterSelection('all')" />Tüm ürünler</li>
+                <li><button class="btn" onclick="filterSelection('Orkide')" />Orkideler</li>
+                <li><button class="btn" onclick="filterSelection('Gul')" />Güller</li>
+                <li><button class="btn" onclick="filterSelection('Papatya')" />Papatyalar</li>
+                <li><button class="btn" onclick="filterSelection('Zambak')" />Lilyum/Zambak</li>
+                <li><button class="btn" onclick="filterSelection('SaksiCicekleri')" />Saksı Çiçekleri</li>
+                <li><button class="btn" onclick="filterSelection('MevsimCicekleri')" />Mevsim Çiçekleri</li>
+            </ul>
+        </li>
+        <li><a href="\0">İletişim</a></li>
+
+    </ul>
+
+    <div class="container">
+        <div class="filterDiv Gul">pembe gül</div>
+        <div class="filterDiv Zambak">Zambak</div>
+        <div class="filterDiv SaksiCicekleri">Kaktüs</div>
+        <div class="filterDiv Guller">turuncu gül</div>
+        <div class="filterDiv SaksiCicekleri">Güzel saksı çiçeği</div>
+        <div class="filterDiv Papatya">sarı papatya</div>
+        <div class="filterDiv SaksiCicekleri">Saksı çiçeği</div>
+        <div class="filterDiv Orkide">sarı orkide</div>
+        <div class="filterDiv Papatya">beyaz papatya</div>
+        <div class="filterDiv Guller">kırmızı gül</div>
+        <div class="filterDiv Guller">Sarı gül</div>
+        <div class="filterDiv Orkide">Beyaz orkide</div>
+    </div>
+</body>
+</html>
